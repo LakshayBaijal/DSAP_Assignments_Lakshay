@@ -1,19 +1,19 @@
-##Trie-Based Autocomplete, Spellcheck, and Autocorrect System
-#Overview
+## Trie-Based Autocomplete, Spellcheck, and Autocorrect System
+# Overview
 This project implements a Trie (prefix tree) to support:
 
-#Spell Check: Determines whether a given word exists in the Trie.
+# Spell Check: Determines whether a given word exists in the Trie.
 Autocomplete: Suggests a list of words from the Trie that start with a given prefix.
 Autocorrect: Provides a list of words from the Trie that are within a Levenshtein distance of 3 from the input word.
 The Trie data structure is efficient for these tasks because it allows fast prefix-based lookups and word matching.
 
-#Features
+# Features
 - Insert words into the Trie.
 - Spell Check: Check if a word exists in the Trie.
 - Autocomplete: Given a prefix, suggest words that start with that prefix.
 - Autocorrect: Suggest words that are close to the input word based on Levenshtein distance.
 
-#How It Works
+# How It Works
 Trie Insertion:
 
 Words are inserted into the Trie, where each letter represents a node. The end of a word is marked in the Trie.
