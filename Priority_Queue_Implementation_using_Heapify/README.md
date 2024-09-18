@@ -47,11 +47,12 @@ Constraints :
 - 1<=n<=2*10^5
 - 1<=d<n
 - 1 <= sales[i] <= 10^5
-10a. Sample input:
-85
-23421636
-Sample output:
+10a.
 
+## Sample input:
+8 5
+2 3 4 2 1 6 3 6
+## Sample output:
 2
 
 # Explanation:
