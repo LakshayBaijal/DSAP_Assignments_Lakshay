@@ -51,8 +51,10 @@ Constraints :
 85
 23421636
 Sample output:
+
 2
-Explanation:
+
+# Explanation:
 For the first five days, david will not offer any free maggi to students because he
 didn’t have sufficient sales data.
 On the sixth day, David has d = 5 days worth of trailing sales data, which is {2, 3,
