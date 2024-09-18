@@ -13,16 +13,16 @@ highest (or lowest) priority element is readily accessible.
 Operations : The C++ standard specifies that a legal (i.e.,
 standard-conforming) implementation of priority queue must satisfy the
 following performance requirements.
-1. priority_queue() - initialize an empty priority queue. Time complexity: O(1)
-2. int size() - returns the current size of the priority queue. Time complexity:
+- priority_queue() - initialize an empty priority queue. Time complexity: O(1)
+- int size() - returns the current size of the priority queue. Time complexity:
 O(1)
-3. void push(int el) - insert an element el in the priority queue. Time
+- void push(int el) - insert an element el in the priority queue. Time
 complexity: O(log(size()))
-4. int top() - returns the top (highest or lowest priority) element in the priority
+- int top() - returns the top (highest or lowest priority) element in the priority
 queue. Time complexity: O(1)
-5. void pop() - remove the top element of the priority queue. Time
+- void pop() - remove the top element of the priority queue. Time
 complexity: O(log(size()))
-6. bool empty() - returns true if the priority queue is empty else returns false.
+- bool empty() - returns true if the priority queue is empty else returns false.
 Time complexity: O(1)
 # b. [5 marks]
 Problem Statement : David's Bakery has introduced a new promotion for
