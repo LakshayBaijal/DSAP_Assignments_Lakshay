@@ -36,12 +36,12 @@ data for at least the trailing number of d prior days.
 Given the number of trailing days d and the daily sales record for David's Bakery
 over a period of n days, can you determine how many days david will offer free
 maggi to students during this entire period of n days?
-Input Format :
+## Input Format :
 ​- The first line contains two space-separated integers n and d, the number
 of days of daily sales data, and the number of trailing days respectively.
 ​- The second line contains n space-separated non-negative integers
 where each integer i denotes sales[i].
-Output Format :
+## Output Format :
 - int: the total number of days david will offer free maggi to students.
 Constraints :
 - 1<=n<=2*10^5
