@@ -37,16 +37,16 @@ Given the number of trailing days d and the daily sales record for David's Baker
 over a period of n days, can you determine how many days david will offer free
 maggi to students during this entire period of n days?
 Input Format :
-​ - The first line contains two space-separated integers n and d, the number
+​- The first line contains two space-separated integers n and d, the number
 of days of daily sales data, and the number of trailing days respectively.
-​ - The second line contains n space-separated non-negative integers
+​- The second line contains n space-separated non-negative integers
 where each integer i denotes sales[i].
 Output Format :
 - int: the total number of days david will offer free maggi to students.
 Constraints :
-​ - 1<=n<=2*10^5
-​ - 1<=d<n
-​ - 1 <= sales[i] <= 10^5
+- 1<=n<=2*10^5
+- 1<=d<n
+- 1 <= sales[i] <= 10^5
 10a. Sample input:
 85
 23421636
