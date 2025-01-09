@@ -1,1 +1,1 @@
-All my DSAP Assignments in IIIT Hyderabad 1st Semester
+All my Data Structures and Algorithms Assignments in IIIT Hyderabad 1st Semester
